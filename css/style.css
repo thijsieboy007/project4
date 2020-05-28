@@ -1,0 +1,43 @@
+.parallax{
+  background-color: black;
+  background-image: url("../img/background3.png"); 
+  height: 940px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  width: 1920px;
+  height: 580px;
+}
+
+.parallax h1{
+  font-family: Cosmic Sans MS, Cosmic Sans, Cursive;
+  font-size: 50px;
+  color: white;
+  margin: 0;
+  position: absolute;
+  top: 46%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+.parallax h3{
+  font-family: Cosmic Sans MS, Cosmic Sans, Cursive;
+  font-size: 30px;
+  color: white;
+  margin: 0;
+  position: absolute;
+  top: 53%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+.footer-copyright{
+  background-color: black;
+}
+
+
+
+

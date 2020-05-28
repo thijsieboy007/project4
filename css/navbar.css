@@ -1,0 +1,29 @@
+.navbar{
+    background-color: #282828 !important;
+    /* position: fixed !important; */
+    width: 100%;
+    margin-bottom: 0%;
+}
+.navbar-brand{
+    font-family: 'Alfa Slab One', cursive !important;
+    color:  #39ca74 !important;
+    font-size: 2.0em;
+}
+
+span{
+    color:  orange !important; 
+}
+
+.navbar .nav-item a{
+    font-size: 1.5em;
+    font-family: 'Alfa Slab One', cursive !important;
+    color: #FFFFFF !important;
+}
+
+.navbar .navbar-nav{
+    margin-left : 30%;
+}
+
+.Login{
+    Margin-Left : 30% !important;
+}
