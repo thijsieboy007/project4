@@ -1,43 +1,166 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  padding: 0%;
+  margin: 0%;
+  font-size: 16px;
+  overflow-x: hidden;
+}
+
 .parallax{
-  background-color: black;
-  background-image: url("../img/background3.png"); 
-  height: 940px;
-  background-attachment: fixed;
+  background-image: url("../img/background4.png"); 
   background-position: center;
+  background-attachment: fixed;
   background-repeat: no-repeat;
-  /* background-size: cover; */
-  width: 1920px;
-  height: 580px;
+  background-size: cover;
+  width: 100%;
+  height: 55vh;
 }
 
-.parallax h1{
-  font-family: Cosmic Sans MS, Cosmic Sans, Cursive;
-  font-size: 50px;
-  color: white;
-  margin: 0;
-  position: absolute;
-  top: 46%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%)
-}
-
-.parallax h3{
-  font-family: Cosmic Sans MS, Cosmic Sans, Cursive;
-  font-size: 30px;
-  color: white;
-  margin: 0;
-  position: absolute;
-  top: 53%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%)
+@media screen and (max-width: 767px) {
+  .parallax {
+    background-size: 260%;
+    background-position: 50% 0%;
+    height: 36vh;
+  }
 }
 
 .footer-copyright{
   background-color: black;
 }
 
+#Logosize{
+  width: 20%;
+  height: auto;
+}
 
+footer{
+  background: #282828;
+  margin-top: 5%;
+}
 
+.copy{
+  padding-top: 30px;
+}
 
+.container-fluid {
+  width: 100%;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#Logohome1{
+  width: 50%;
+  height: auto;
+  margin-left: 20%;
+  margin-top: 12%;
+}
+
+#Logohome2{
+  width: 50%;
+  height: auto;
+  margin-left: 10%;
+  margin-top: 12%;
+}
+
+#Homebox{
+  background-color: white;
+  width: 100%;
+  margin-top: 2%;
+  text-align: center;
+}
+
+#Homebox p{
+  margin-bottom: 2px;
+}
+
+#Arrow{
+  font-size: 40px;
+  color: #39ca74;
+}
+
+#greybox{
+  background-color: #282828;
+  width: 100%;
+  margin-top: 0%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+#greybox p{
+  margin-bottom: 8px;
+  color: white;
+  margin-left: 25%;
+}
+
+#whitebox{
+  background-color: #ffffff;
+  width: 100%;
+  margin-top: 0%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+#whitebox p{
+  margin-bottom: 8px;
+  margin-left: 25%;
+}
+
+#man{
+  width: 10rem;
+  height: 10rem;
+  border-radius: 60%;
+  margin-left: 25%;
+}
+
+#woman{
+  width: 10rem;
+  height: 10rem;
+  border-radius: 60%;
+  margin-left: 25%;
+}
+
+#Foodgrey{
+  background-color: #282828;
+  color: #ffffff;
+  width: 100%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 2%; 
+}
+
+#Foodwhite{
+  background-color: #ffffff;
+  color: #000000;
+  width: 100%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 2%; 
+}
+
+#Foodimg{
+  width: 20rem;
+  height: auto;
+}
+
+#Modalbulgur{
+  color: black;
+}
+
+#Modalspaghetti{
+  color: black;
+}
+
+#Modalroerei{
+  color: black;
+}
+
+#modalbulger p{
+  margin-bottom: 2px;
+}
+
+#logofood{
+  width: 20rem;
+}

@@ -13,6 +13,7 @@
 </head>
 
 <body>
+    <main class="container-fluid">
 
     <div class="parallax">
         <h1></h1>
@@ -24,14 +25,6 @@
         include("./navbar.php");
         ?>
     </header>
-
-    <!-- Navigation bar -->
-    <main class="container-fluid">
-        <div class="row">
-            <div class="col-12">
-
-            </div>
-        </div>
 
         <!-- Content -->
         <div class="row" id="content">
@@ -49,6 +42,7 @@
             include("./footer.php");
             ?>
         </footer>
+    </main>
 
 
 
