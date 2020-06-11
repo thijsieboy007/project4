@@ -36,7 +36,10 @@ html, body {
 
 footer{
   background: #282828;
-  margin-top: 5%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  width: 100%;
+
 }
 
 .copy{
@@ -163,4 +166,64 @@ footer{
 
 #logofood{
   width: 20rem;
+}
+
+#exercisesgrey{
+  background-color: #282828;
+  color: #ffffff;
+  width: 100%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 2%; 
+}
+
+#exercisesgrey h4{
+  margin-left: 10%;
+}
+
+#exercisesgrey p{
+  margin-left: 10%;
+  padding-left: 2%;
+}
+
+#exerciseswhite{
+    background-color: #ffffff;
+    color: #000000;
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%; 
+}
+
+#exerciseimg{
+  width: 25rem;
+  height: auto;
+  padding-right: 2%;
+  padding-left: 2%;
+}
+
+#exerciselogo{
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 25rem;
+  height: auto;
+}
+
+#formlogin{
+  margin-left: 38%;
+  margin-right: 38%;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+#formlogin2{
+  margin-left: 45%;
+  margin-right: 40%;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+#adminpage{
+  margin-left: 2%;
 }
