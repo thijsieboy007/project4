@@ -17,7 +17,7 @@ span{
 .navbar .nav-item a{
     font-size: 1.5em;
     font-family: "Lucida Console", Courier, monospace !important;
-    color: #FFFFFF !important;
+    /* color: rgb(110, 108, 108) !important; */
 }
 
 .navbar .navbar-nav{

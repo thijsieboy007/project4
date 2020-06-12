@@ -139,3 +139,23 @@
         <img src="./img/legraises.png" id="exerciseimg">
     </div>
 </div>
+
+<div class="row" id="exercisesgrey">
+    <div class="col-12 col-lg-3">
+        <img src="./img/benchpress.png" id="exerciseimg">
+    </div>
+    <div class="col-12 col-lg-4">
+        <h4>Bench press</h4>
+        <p>Hoewel bankdrukken lastig lijkt om thuis te doen, is het wel mogelijk. Het enige wat je nodig hebt is een bankje en een stang met iets 
+           zwaars eraan. Met deze compound oefening train je je borst, de voorkant van je schouders, je triceps, je biceps en je lats (zijkant van je 
+           rug). Deze oefening voer je uit door op een bankje of op de grond te liggen. Je pakt een stang met iets zwaar eraan (vaak een halter of 2
+           dumbbells) en die druk je omhoog. Als je 30 minuten met je normale gewicht zou bankdrukken verbrand je zo een 90 kcal. Al verhoog je het gewicht
+           dat je bankdrukt elke keer word het lastiger en kan je in dezelfde tijd 180 kcal verbranden.
+        </p>
+    </div>
+    <div class="col-12 col-lg-2">
+    </div>
+    <div class="col-12 col-lg-3">
+        <img src="./img/Logo.png" id="exerciselogo">
+    </div>
+</div>

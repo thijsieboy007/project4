@@ -16,8 +16,6 @@
     <main class="container-fluid">
 
     <div class="parallax">
-        <h1></h1>
-        <h3></h3>
     </div>
 
     <header>

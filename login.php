@@ -1,14 +1,19 @@
+<link rel="stylesheet" href="./css/contact.css">
+<form action="./index.php?content=login_script" method="post" id="formlogin">
+  <div class="container">
+    <h1>Login</h1>
+    <p>Vul uw gegevens in om in te loggen. </p>
+    <hr>
 
-<form action="./index.php?content=login_script" method="post" id="formlogin2">
-  <div class="form-group">
-    <label for="inputEmail">Vul hier u e-mailadres in:</label>
-    <input type="email" name="email" class="form-control" id="inputEmail">
+    <label for="email"><b>E-mail</b></label>
+    <input type="email" placeholder="E-mail" name="email" autofocus>
+
+    <label for="password"><b>Wachtwoord</b></label>
+    <input type="password" placeholder="Wachtwoord" name="password">
+
+    <div class="clearfix">
+      <button type="submit" class="signupbtn">Sign Up</button>
+
+    </div>
   </div>
-  <div class="form-group">
-    <label for="inputPassword">Vul hier u wachtwoord in:</label>
-    <input type="password" name="password" class="form-control" id="inputPassword">
-  </div>
-
-
-  <button type="submit" class="btn btn-warning btn-lg btn-block mt-4">Log in</button>
 </form>

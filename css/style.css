@@ -36,7 +36,7 @@ html, body {
 
 footer{
   background: #282828;
-  margin-top: 0%;
+  margin-top: 2%;
   margin-bottom: 0%;
   width: 100%;
 
@@ -200,11 +200,12 @@ footer{
   height: auto;
   padding-right: 2%;
   padding-left: 2%;
+  float: left;
 }
 
 #exerciselogo{
   margin-top: 5%;
-  margin-left: 10%;
+  margin-left: -10%;
   margin-right: 10%;
   width: 25rem;
   height: auto;
@@ -215,15 +216,12 @@ footer{
   margin-right: 38%;
   margin-top: 4%;
   margin-bottom: 4%;
+  border:1px solid #ccc;
 }
 
-#formlogin2{
-  margin-left: 45%;
-  margin-right: 40%;
-  margin-top: 4%;
-  margin-bottom: 4%;
-}
 
 #adminpage{
   margin-left: 2%;
 }
+
+
