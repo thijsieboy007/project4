@@ -1,0 +1,6 @@
+Om alles werkend te maken moet je alle bestanden behalve de buddyfat.sql in een folder doen. Je moet een virtual host maken en de bestandslocatie
+koppelen aan de map met je bestanden erin.
+
+Om de database te laten werken pak je het buddyfat.sql bestand en die importeer je in phpmyadmin.
+
+In de codes moet je op de connect_db pagina even de gegevens aanpassen naar je eigen gegevens
